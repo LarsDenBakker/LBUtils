@@ -1,0 +1,3 @@
+dependencies {
+   compile 'net.jodah:typetools:0.4.1'
+}
