@@ -101,6 +101,8 @@ public class CollectionUtils {
     * @param elements Optionally vararg elements to add to the new constructed Collection.
     *
     * @return The constructed Collection with optionally the specified @elements as elements.
+    * 
+    * @throws IllegalArgumentException if an instance could not be created.
     */
    public static <E, C extends Collection<E>> C instanceOf(Class<C> clazz, E... elements) {
       if (Collection.class.isAssignableFrom(clazz)) {
